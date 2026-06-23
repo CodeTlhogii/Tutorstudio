@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const ALLOWED_ORIGINS = [
   "http://localhost:5173", // Default Vite port
   "http://localhost:3000", // Default CRA port
-  "https://your-frontend-static-site.onrender.com" // CHANGE THIS to your actual Render frontend URL
+  "https://tutorstudio-frontend.onrender.com" // CHANGE THIS to your actual Render frontend URL
 ];
 
 app.use(cors({
