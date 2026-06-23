@@ -165,7 +165,7 @@ export default function App() {
           <div style={{ fontSize: '48px', marginBottom: '16px' }}>💻</div>
           <h2 style={{ fontSize: '22px', fontWeight: '800', margin: '0 0 12px 0', color: '#8b3dff' }}>Desktop Required</h2>
           <p style={{ fontSize: '14px', lineHeight: '1.6', color: '#cbd5e1', margin: 0 }}>
-            CanvaClass Studio is optimized for precise math drawing interfaces, side-by-side chats, and workspace board interactions. Please access this room from a desktop or laptop computer.
+            TutorStudio is optimized for precise maths drawing interfaces, side-by-side chats, and workspace board interactions. Please access this room from a desktop or laptop computer.
           </p>
         </div>
       </div>
@@ -176,7 +176,7 @@ export default function App() {
     return (
       <div style={{ width: '100vw', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', background: 'linear-gradient(135deg, #0e1318 0%, #1e1b4b 100%)', fontFamily: 'sans-serif' }}>
         <div style={{ ...glassBaseStyle, width: '420px', padding: '40px', boxSizing: 'border-box' }}>
-          <h1 style={{ fontSize: '32px', fontWeight: '800', margin: '0 0 5px 0', textAlign: 'center', color: '#8b3dff', letterSpacing: '-1px' }}>CanvaClass Studio</h1>
+          <h1 style={{ fontSize: '32px', fontWeight: '800', margin: '0 0 5px 0', textAlign: 'center', color: '#8b3dff', letterSpacing: '-1px' }}>TutorStudio</h1>
           <p style={{ fontSize: '14px', opacity: 0.6, textAlign: 'center', margin: '0 0 30px 0' }}>Dedicated Workspace Hub</p>
 
           {errorMsg && <div style={{ background: 'rgba(255, 77, 79, 0.1)', color: '#ff4d4f', padding: '12px', borderRadius: '12px', fontSize: '13px', marginBottom: '20px', textAlign: 'center', fontWeight: '600' }}>⚠️ {errorMsg}</div>}
