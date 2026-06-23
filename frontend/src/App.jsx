@@ -9,7 +9,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
 
 // Replace with your live Render backend Web Service URL once provisioned
 const BACKEND_URL = process.env.NODE_ENV === 'production'
-  ? 'https://your-backend-name.onrender.com' 
+  ? 'https://tutorstudio.onrender.com' 
   : 'http://localhost:5000';
 
 const glassBaseStyle = {
